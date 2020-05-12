@@ -20,6 +20,8 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto e5 play
 PRODUCT_MANUFACTURER := motorola
 
+EXTENDED_BUILD_TYPE := OFFICIAL
+
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.model \
     ro.product.name
