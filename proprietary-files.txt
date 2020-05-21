@@ -26,7 +26,6 @@ vendor/lib/libflash_aw3641.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libflash_sky81298.so
 vendor/lib/libflash_wd3100.so
-vendor/lib/libgralloc1.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
@@ -75,7 +74,6 @@ vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_ubifocus_lib.so
-vendor/lib/libmmcamera_vstab_module.so|75ab35bad700405c94ee94fc93517a8ce76d2351
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmpbase.so
@@ -104,7 +102,6 @@ vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 vendor/lib/libzxingcpp.so
 vendor/lib/lib_mot_led_calibration.so
-vendor/lib/lib_motsensorlistener.so
 
 # Camera ISP
 vendor/lib/libmmcamera_isp_abf40.so
@@ -473,19 +470,6 @@ vendor/lib/libchromatix_mot_s5k3p8sp_hfr_120_3a.so
 vendor/lib/libchromatix_mot_s5k3p8sp_postproc.so
 vendor/lib/libchromatix_mot_s5k3p8sp_preview.so
 vendor/lib/libchromatix_mot_s5k3p8sp_snapshot.so
-vendor/lib/libchromatix_mot_s5k4h7_common.so
-vendor/lib/libchromatix_mot_s5k4h7_cpp_hfr_120.so
-vendor/lib/libchromatix_mot_s5k4h7_cpp_liveshot.so
-vendor/lib/libchromatix_mot_s5k4h7_cpp_preview.so
-vendor/lib/libchromatix_mot_s5k4h7_cpp_snapshot.so
-vendor/lib/libchromatix_mot_s5k4h7_cpp_video_full.so
-vendor/lib/libchromatix_mot_s5k4h7_hfr_120.so
-vendor/lib/libchromatix_mot_s5k4h7_hfr_120_3a.so
-vendor/lib/libchromatix_mot_s5k4h7_postproc.so
-vendor/lib/libchromatix_mot_s5k4h7_snapshot.so
-vendor/lib/libchromatix_mot_s5k4h7_video_full.so
-vendor/lib/libchromatix_mot_s5k4h7_zsl_preview_3a.so
-vendor/lib/libchromatix_mot_s5k4h7_zsl_video_3a.so
 vendor/lib/libchromatix_mot_s5k4h8_common.so
 vendor/lib/libchromatix_mot_s5k4h8_cpp_hfr_120.so
 vendor/lib/libchromatix_mot_s5k4h8_cpp_liveshot.so
@@ -684,6 +668,3 @@ vendor/lib/libmmcamera_ov5693.so
 vendor/lib/libmmcamera_s5k3p3.so
 vendor/lib/libmmcamera_s5k4h7.so
 vendor/lib/libmmcamera_s5k4h8.so
-
-# Sensors (laser)
-vendor/lib/sensors.hal.tof.so
