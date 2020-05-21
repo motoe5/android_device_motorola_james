@@ -48,3 +48,8 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
+
+# Thermal config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal-engine-james.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-james.conf \
+    $(LOCAL_PATH)/configs/thermal-engine-rjames.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-rjames.conf
