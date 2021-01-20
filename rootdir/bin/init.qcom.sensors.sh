@@ -31,7 +31,9 @@
 #
 start_sensors()
 {
+    chmod -h 775 /mnt/vendor/persist/sensors
     chmod -h 664 /mnt/vendor/persist/sensors/sensors_settings
+    mkdir -p /mnt/vendor/persist/sensors/registry/registry
     chown -h -R system.system /mnt/vendor/persist/sensors
     start vendor.sensors.qti
 }

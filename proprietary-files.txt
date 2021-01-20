@@ -96,9 +96,8 @@ vendor/lib/libmmcamera_mot_ov5675.so
 vendor/lib/libmmcamera_s5k4h7.so
 
 # Display calibration
-vendor/etc/qdcm_calib_data_mipi_mot_video_djn_hd_599.xml|315c54a3967e053782571d6adb08f01048675dc2
-vendor/etc/qdcm_calib_data_mipi_mot_video_djn_hd_600.xml|689a49022d016326cc3fa875bbde2392b61290d3
-vendor/etc/qdcm_calib_data_mipi_mot_video_tianma_hd_599.xml|315c54a3967e053782571d6adb08f01048675dc2
+vendor/etc/qdcm_calib_data_mipi_mot_video_djn_720p_520.xml|3624dc785484076671483bfa5284cfdd0934ecc7
+vendor/etc/qdcm_calib_data_mipi_mot_video_txd_720p_520.xml|d1a19edee23368676fbe45910a066fb18a449a46
 
 # Fingerprint - from deen_sprout - QPKS30.54-22-12
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets|bc775f7e2e9afa615d7b90d9076b0e82a885a917
@@ -135,6 +134,3 @@ vendor/lib64/sensor_calibrate.so|47f475a83d6eb59f45a810299116893c91acf79e
 vendor/lib64/sensors.rp.so|c792a29071b6e8521e205b0d0e87a96401407618
 vendor/lib64/sensors.ssc.so|761d2b907b60176a8ef77e7f9296337b936a5351
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|4ca1d6dbe9acfbc762234b622ab2e7fa3328275d
-
-# Sensors (laser)
-vendor/lib/sensors.hal.tof.so
